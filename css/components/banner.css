@@ -1,0 +1,40 @@
+.banner {
+background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+display: flex;
+height: 400px;
+justify-content: left;
+align-items: center;
+}
+
+
+.banner-container> h1 {
+color: blueviolet;
+font-size: 50px;
+}
+
+.banner-container> p {
+color:blueviolet;
+margin-bottom: 50px;
+}
+
+.apply-button {
+background-color: greenyellow;
+color: black;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+align-items: right;
+margin-top: 50px;
+border-radius: 20px;
+}
+
+.apply-button:hover {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  transition: 0.2s;
+  background-color: rgb(146, 212, 47);
+}
